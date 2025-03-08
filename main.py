@@ -4,14 +4,6 @@ import os
 from random import choices
 from time import sleep
 
-'''
- 1. Set up timer to count down from 60 seconds when button is pushed.
- 2. Create come kind of paragraph text box.
- 3. Get some text to test with.
-
- Next steps:
- Make the text entry box cycle to the next paragraph when pressing Enter.
-'''
 
 app_dir = os.path.dirname(os.path.abspath(__file__))
 os.chdir(app_dir)
